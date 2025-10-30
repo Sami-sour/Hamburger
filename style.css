@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=TASA+Orbiter:wght@400..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin-bottom: 2rem;
+  background-color: black;
+  position: absolute;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+#top-upper {
+  background-color: rgba(21, 20, 20, 0.416);
+  position: fixed;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: #492118;
+  font-weight: 600;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 90%;
+  margin-top: 11rem;
+  padding-right: 1rem;
+}
+
+.parah {
+  text-align: center;
+  margin-top: 1rem;
+  color: #af5a47;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.images img {
+  width: 62%;
+}
+
+.sub-container {
+  margin-bottom: 2rem;
+}
+
+.menu-bar {
+  display: none;
+}
+
+#icon {
+  display: none;
+}
+
+.cross-icon {
+  display: none;
+}
+
+.food-items {
+  color: white;
+}
+
+.bar-icon {
+  color: #fff;
+  margin-right: 1rem;
+  cursor: pointer;
+  display: none;
+}
+
+.cross-icon {
+  color: #fff;
+  cursor: pointer;
+}
+
+.go-to-top {
+  color: #af5a47;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+  .links {
+    display: none;
+  }
+
+  .image-container img {
+    margin-top: 12rem;
+    width: 90%;
+    margin-right: 2rem;
+  }
+
+  .open-links {
+    flex-direction: column;
+    display: inline-flex;
+    position: absolute;
+    margin-top: 2rem;
+    text-align: start;
+    margin-right: 1rem;
+    right: 0px;
+  }
+
+  .header {
+    position: relative;
+    height: 10rem;
+  }
+
+  #icon {
+    font-size: 1.5rem;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 1rem;
+  }
+
+  .cross-icon {
+    font-size: 2rem;
+    display: none;
+  }
+}
